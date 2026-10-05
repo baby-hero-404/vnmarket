@@ -1,0 +1,112 @@
+# AI assistant instruction files and local agent settings
+AGENTS.md
+.claude/settings.local.json
+
+# --- OS ---
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- IDEs & Editors ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.ropeproject/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# --- Tooling caches ---
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# --- Testing & coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit.xml
+*.cover
+.tox/
+.nox/
+.hypothesis/
+nosetests.xml
+tests/report/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Secrets & credentials (never commit) ---
+.env
+.env.*
+!.env.example
+api_key.json
+credentials*.json
+secrets*.json
+*.pem
+*.key
+
+# --- Runtime output (vnmarket writes these in the working directory) ---
+*.log
+/data.json
+.vnmarket/
+
+# --- Exported / downloaded data ---
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Scratch ---
+debug_*.py
